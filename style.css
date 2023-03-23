@@ -40,6 +40,7 @@ p {
   margin: 15px 0 20px 0;
 }
 
+/* Just to add padding */
 .section-p1 {
   padding: 40px 80px;
 }
@@ -52,6 +53,10 @@ body {
   width: 100%;
 }
 
+.logo{
+  width: 70px;
+}
+
 .material-symbols-outlined {
   font-variation-settings:
     'FILL' 0,
@@ -60,26 +65,213 @@ body {
     'opsz' 48
 }
 
-/* Header Start*/
-
 #header {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 20px 80px;
-  background-color: #eceeae;
-  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
- 
+  background-color: #E3DFFD;
+  position: sticky;
+  top : 0;
+  left : 0;
 }
 
 #navbar {
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #navbar li {
+  position: relative;
   list-style: none;
-  padding: 0px 15px;
+  padding: 0px 20px;
+  display: flex;  
+}
 
+#navbar li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #183A1D;
+  transition: .5s ease;
+}
+
+#navbar li a:hover,
+#navbar li a.active {
+  color: #002B5B;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+  content:"";
+  width: 30%;
+  height: 2px;
+  background: #000000;
+  position: absolute;
+  bottom: -4px;
+  left: 20px;
+  }
+
+  /* HERO Section */
+
+  #hero {
+    background-image: url(images/hero4.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #hero h4 {
+    padding-bottom: 15px;
+  }
+
+    #hero h2 {
+      padding-bottom: 10px;
+    }
+
+  #hero button {
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    background-image: url(images/button.png);
+    background-color: transparent;
+    padding: 14px 80px 14px 65px;
+    cursor: pointer;
+  }
+
+
+  #offers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+
+  #offers img{
+    width: 100%;
+      border-radius: 20px;
+    border: #002B5B;
+    border-width: 5;
+  }
+
+  #offers .feature-box{
+    width: 420px;
+    height: 300px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.5);
+    border: 1px solid color #2D2727 ;
+    border-radius: 4px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+#offers .feature-box:hover {
+  box-shadow: 10px 10px 54px rgba(0, 0, 0, 1);
+}
+
+/* Make image responsive */
+
+#offers .feature-box img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+#products {
+  text-align: center;
+}
+
+#products .product-container {
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+  
+
+
+
+}
+
+#products .product {
+  width : 23%;
+  min-width : 250px;
+  padding : 10px 12px;
+  border: 1px solid #696c6f;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.10);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+
+#products .product:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.5);
+}
+
+#products .product img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#products .product .description {
+  text-align: start;
+  padding: 10px 0;
+
+}
+
+#products .product .add-product{
+  text-align: end;
+}
+
+#products .product .description span {
+  font-size: 30px;
+  
+}
+
+#products .product .description h5{
+  padding-top: 10px;
+  font-size: 14px;
+  color: #2D2727;
+}
+
+#products .product .description h4 {
+  padding-top: 10px;
+  color:#2D2727;
+}
+
+#products .product .description .star{
+align-items: center; 
+color: #F2CD5C;
+}
+
+#products .product .description h4{
+
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #2D2727 ;
+}
+
+#products .product .material-symbols-outlined{
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50px;
+  font-weight: 500;
+  color: #002B5B;
+  background-color: #F9F5EB;
+  border: 1px solid;
+  position:absolute;
+  bottom: 20px;
+  right: 10px;
 }

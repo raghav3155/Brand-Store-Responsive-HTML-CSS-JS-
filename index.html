@@ -5,29 +5,267 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
+        <title>A Retail Store : Raghav Singh</title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
+
+
+        <!--Header Section-->
         <section id="header">
-            <a href="#"> <img src="images/logo.png" class="logo" width="55px"></a>
+
+            <a href="#"> <img src="images/logo.png" class="logo"></a>
 
             <div>
                 <ul id="navbar">
-                    <li><a href="#">Home</a></li> 
-                    <li><a href="shop.html">Shop</a></li> 
-                    <li><a href="blog.html">Blog</a></li> 
-                    <li><a href="about.html">About</a></li> 
-                    <li><a href="contact.html">Contact</a></li> 
-                    <li><a href="cart.html"><span class="material-symbols-outlined">sell</span></i></a></li>
-                    
+                    <li><a class="active" href="index.html">Home</a> </li>
+                    <li><a href="shop.html">Shop</a> </li>
+                    <li><a href="blog.html">Blog </li>
+                    <li><a href="about.html">About</a> </li>
+                    <li><a href="contact.html">Contact</a> </li>
+                    <li><a href="cart.html"> <span class="material-symbols-outlined"> shopping_bag </span></a> </li>
                 </ul>
+
+            </div>
+
+        </section>
+
+        <!--Hero Section-->
+        <section id = "hero">
+            <h4>Portfolio Website</h4>
+            <h2>Raghav Singh </h2>
+            <h2>(m) 0401 566 702</h2>
+            <p>Save more on $1000 shopping!</p>
+            <button>Shop Now</button>
+        </section>
+
+        <!--Offers Box 1 Section-->
+        <section id = "offers" class="section-p1">
+            <div class="feature-box">
+                <img id = "img" src="images/features/f1a.png">
+                <h6></h6>
+            </div>
+
+        <!--Offers Box 2 Section-->
+            <div class="feature-box">
+                <img id="img" src="images/features/f2a.png">
+                <h6></h6>
+            </div>
+
+        <!--Offers Box 3 Section -->
+            <div class="feature-box">
+                <img id="img" src="images/features/f3a.png">
+                <h6></h6>
             </div>
         </section>
 
+
+        <!--Featured Products Title Heading with Section P1 to add padding-->
+        <section id ="products" class="section-p1">
+
+            <h2>Featured Products</h2>
+            <p>New range of offers</p>
+
+            <div class ="product-container">
+                
+                <!--Product 1-->
+                <div class="product">
+
+                    <img src="images/products/p1.jpg"><br>
+
+                    <div class="description">
+                        <h5>Levi's</h5>
+                        <h5>Black Colour</h5>
+
+                            <div class="star">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                                <h4> $25 </h4>
+                    </div>
+                    <div class ="add-product">
+                                <a href="cart.html"><span class="material-symbols-outlined">add_shopping_cart</span>
+                    </div>
+                </div>
+
+                <!--Product 2-->
+
+                <div class="product">
+                
+                    <img src="images/products/p2.jpg"><br>
+                
+                    <div class="description">
+                        <h5>adidas</h5>
+                        <h5>Pink Tshirt</h5>
+                
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4> $30 </h4>
+                    </div>
+                    <div class="add-product">
+                        <a href="cart.html"><span class="material-symbols-outlined">add_shopping_cart</span>
+                    </div>
+                </div>
+
+                <!--Product 3-->
+
+                <div class="product">
+                
+                    <img src="images/products/p3.jpg"><br>
+                
+                    <div class="description">
+                        <h5>adidas</h5>
+                        <h5>Off Black Tshirt</h5>
+                
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4> $30 </h4>
+                    </div>
+                    <div class="add-product">
+                        <a href="cart.html"><span class="material-symbols-outlined">add_shopping_cart</span>
+                    </div>
+                </div>
+
+                <!-- Product 4-->
+
+                <div class="product">
+                
+                    <img src="images/products/p4.jpg"><br>
+                
+                    <div class="description">
+                        <h5>Levi's</h5>
+                        <h5>Red Tshirt</h5>
+                
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4> $22 </h4>
+                    </div>
+                    <div class="add-product">
+                        <a href="cart.html"><span class="material-symbols-outlined">add_shopping_cart</span>
+                    </div>
+                </div>
+
+                <!--Product 5-->
+
+                <div class="product">
+                
+                    <img src="images/products/p5.jpg"><br>
+                
+                    <div class="description">
+                        <h5>adidas</h5>
+                        <h5>White Tshirts</h5>
+                
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4> $22 </h4>
+                    </div>
+                    <div class="add-product">
+                        <a href="cart.html"><span class="material-symbols-outlined">add_shopping_cart</span>
+                    </div>
+                </div>
+
+                <!--Product 6 -->
+
+                <div class="product">
+                
+                    <img src="images/products/p6.jpg"><br>
+                
+                    <div class="description">
+                        <h5>Levi</h5>
+                        <h5>Orange Tshirt</h5>
+                
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4> $15 </h4>
+                    </div>
+                    <div class="add-product">
+                        <a href="cart.html"><span class="material-symbols-outlined">add_shopping_cart</span>
+                    </div>
+                </div>
+
+                <!-- Product 7-->
+
+                <div class="product">
+                
+                    <img src="images/products/p7.jpg"><br>
+                
+                    <div class="description">
+                        <h5>Levi</h5>
+                        <h5>Blue Tshirt</h5>
+                
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4> $22 </h4>
+                    </div>
+                    <div class="add-product">
+                        <a href="cart.html"><span class="material-symbols-outlined">add_shopping_cart</span>
+                    </div>
+                </div>
+
+
+                <!-- Product 8-->
+                
+                <div class="product">
+                
+                    <img src="images/products/p8.jpg"><br>
+                
+                    <div class="description">
+                        <h5>Levi</h5>
+                        <h5>Red Tshirt</h5>
+                
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4> $22 </h4>
+                    </div>
+                    <div class="add-product">
+                        <a href="cart.html"><span class="material-symbols-outlined">add_shopping_cart</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!--Banner below the featured products-->
+        <section id="banner"></section>
+
+        <!--Javascript Page-->
         <script src="script.js"></script>
     </body>
 
