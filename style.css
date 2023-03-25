@@ -49,6 +49,23 @@ p {
   margin: 40px 0;
 }
 
+
+button.normal{
+
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #000000;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+
+}
+
+
 body {
   width: 100%;
 }
@@ -172,6 +189,7 @@ body {
     border-radius: 4px;
     margin: 15px 0px;
     cursor: pointer;
+    
 }
 
 #offers .feature-box:hover {
@@ -195,10 +213,6 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   padding-top: 20px;
-  
-
-
-
 }
 
 #products .product {
@@ -212,6 +226,7 @@ body {
   margin: 15px 0;
   transition: 0.2s ease;
   position: relative;
+  text-decoration: none ;
 }
 
 #products .product:hover {
@@ -274,4 +289,208 @@ color: #F2CD5C;
   position:absolute;
   bottom: 20px;
   right: 10px;
+  text-decoration: none;
+}
+
+#banner {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(images/banner/b2.jpg);
+  width: 100%;
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#banner h4{ 
+
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+
+}
+
+#banner h2 {
+
+  color: white;
+  font-size: 45px;
+  font-weight: 700;
+  padding: 20px 0;
+
+}
+
+#banner span {
+  color: red;
+}
+
+#banner button:hover {
+  color: black;
+  background-color: yellow;
+
+}
+
+#sm-banners {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+}
+
+#sm-banners .banner-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      text-decoration: none;
+      background-image: url(images/banner/b17.jpg);
+      min-width: 650px;
+      height: 50vh;
+      background-size: cover;
+      background-position: center;
+      padding: 30px;
+
+}
+
+#sm-banners .banner-box2 {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-decoration: none;
+    background-image: url(images/banner/b10.jpg);
+    min-width: 650px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+
+
+#sm-banners h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#sm-banners h2 {
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+#sm-banners span {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 15px;
+}
+
+
+button.white {
+
+  font-size: 13px;
+  font-weight: 600;
+  padding: 11px 18px;
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  border: 1px solid white;
+  outline: none;
+  transition: 0.2s;
+
+}
+
+#sm-banners .banner-box:hover button{
+
+  background-color: #2D2727;
+  border: 1px solid; 
+}
+
+#sm-banners .banner-box2:hover button {
+
+  background-color: #2D2727;
+  border: 1px solid;
+}
+
+
+#banner-box3{
+
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 80px;
+  
+}
+
+#banner-box3 .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-decoration: none;
+  background-image: url(images/banner/b7.jpg);
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+#banner-box3 .banner-box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-decoration: none;
+  background-image: url(images/banner/b4.jpg);
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+#banner-box3 .banner-box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-decoration: none;
+  background-image: url(images/banner/b18.jpg);
+  min-width: 30%;
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+
+
+#banner-box3 h2 {
+  color: white;
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 22px;
+
+}
+
+#banner-box3 h3 {
+  color: white;
+  text-decoration: none;
+  padding: 5px 0;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+#banner-box3 span {
+  color: white;
+  padding-bottom: 15px;
 }
