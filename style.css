@@ -88,7 +88,7 @@ body {
   justify-content: space-between;
   padding: 20px 80px;
   background-color: #E3DFFD;
-  position: sticky;
+  position:sticky;
   top : 0;
   left : 0;
 }
@@ -493,4 +493,107 @@ button.white {
 #banner-box3 span {
   color: white;
   padding-bottom: 15px;
+}
+
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("images/banner/b14.png");
+  background-color: #2D2727;
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+}
+
+#newsletter h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: white;
+}
+
+#newsletter p {
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+
+#newsletter input {
+
+  height: 3.125 rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width:100%;
+  border: 1 px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#newsletter button {
+  white-space: nowrap; 
+  border-left-right-radius: 0;
+  border-left-right-radius: 0;
+}
+
+
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
+ 
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .col{
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+
+}
+
+footer .logo {
+  margin-bottom: 20px;
+}
+
+footer h4 {
+font-size: 14px;
+padding-bottom: 20px;
+ 
+}
+
+footer p {
+  font-size: 13px;
+  margin: 0 0 8px 0;
+
+}
+
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: black;
+  margin-bottom: 10px;
+}
+
+footer .follow {
+  margin-top: 20px;
+
+}
+
+footer .follow i {
+  padding-right: 10px;
+  cursor: pointer;
+
+}
+
+footer .install .row img {
+
+    
+
 }
