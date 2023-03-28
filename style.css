@@ -547,37 +547,45 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
 
-footer .col{
-
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  margin-bottom: 20px;
-
-}
-
-footer .logo {
-  margin-bottom: 20px;
 }
 
 footer h4 {
-font-size: 14px;
-padding-bottom: 20px;
- 
+  font-size: 14px;
+  padding: 10px;
 }
 
-footer p {
-  font-size: 13px;
-  margin: 0 0 8px 0;
+footer .col{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-bottom: 20px;
+  }
 
+  footer .logo {
+    margin-bottom: 30px;
+  }
+
+  footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+  }
+
+  footer p {
+      font-size: 13px;
+      margin: 0 0 8px 0;
+  }
+
+
+footer .icon i {
+  cursor: pointer;
+  font-size: larger;
 }
 
 footer a {
   font-size: 13px;
-  text-decoration: none;
   color: black;
+  text-decoration: none;
   margin-bottom: 10px;
 }
 
@@ -586,14 +594,18 @@ footer .follow {
 
 }
 
-footer .follow i {
-  padding-right: 10px;
+footer .icon i{
+  color: gray;
+  padding-right: 20px;
   cursor: pointer;
-
 }
 
-footer .install .row img {
-
-    
-
+footer .install .row img{
+  border:.5px;
+  border: dotted;
 }
+
+footer .install img{
+margin: 10px 0 15px 0;
+}
+
